@@ -56,16 +56,14 @@ Starts a [messagingInvitation](messagingInvitation_ref.md) that adds the instant
 
 #### Request body
 
-None
+|**Item**|**Description**|
+|:-----|:-----|
+| [messagingInvitation](messagingInvitation_ref.md)|Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.|
 
 
 #### Response body
 
-
-
-|**Item**|**Description**|
-|:-----|:-----|
-| [messagingInvitation](messagingInvitation_ref.md)|Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.|
+None
 
 #### Synchronous errors
 
