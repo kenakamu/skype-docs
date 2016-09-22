@@ -87,8 +87,8 @@ This sample is given only as an illustration of event syntax. The semantic conte
  "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575/participantApplicationSharing"
  },
  "in" : {
- "rel" : "localParticipant",
- "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/onlineMeeting/665"
+ "rel" : "participant",
+ "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575"
  },
  "type" : "added"
  }
@@ -139,8 +139,8 @@ This sample is given only as an illustration of event syntax. The semantic conte
  "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575/participantApplicationSharing"
  },
  "in" : {
- "rel" : "localParticipant",
- "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/onlineMeeting/665"
+ "rel" : "participant",
+ "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575"
  },
  "type" : "updated"
  }
@@ -189,8 +189,8 @@ Sample of returned event data.
  "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575/participantApplicationSharing"
  },
  "in" : {
- "rel" : "localParticipant",
- "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/onlineMeeting/665"
+ "rel" : "participant",
+ "href" : "https://fe1.contoso.com:443//v1/applications/833/communication/conversations/802/participants/575"
  },
  "type" : "deleted"
  }
