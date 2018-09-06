@@ -1,16 +1,12 @@
 
-# AudienceMessaging 
-The possible states of the messaging modality for all members of an audience (a conversation).
+# AudienceMessaging
 
 
- _**Applies to:** Skype for Business 2015_
+_** Applies to: **Skype for Business 2015_
 
-Represents the states of the [messaging](messaging_ref.md) modality for all members of an audience (a [conversation](conversation_ref.md)).
-
-
+Represents the states of the [messaging modality](messaging_ref.md) for all members of an audience [conversation](conversation_ref.md).
+            
 ## Members
-
-
 
 
 

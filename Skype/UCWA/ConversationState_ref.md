@@ -1,15 +1,12 @@
 
-# ConversationState 
+# ConversationState
 
 
- _**Applies to:** Skype for Business 2015_
+_** Applies to: **Skype for Business 2015_
 
-Represents the state of a conversation instance.
-
-
+Represents the state of a [conversation](conversation_ref.md) instance.
+            
 ## Members
-
-
 
 
 

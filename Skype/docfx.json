@@ -3,8 +3,8 @@
     "content":
       [
         {
-          "files": ["**/**.md"],
-          "exclude": ["**/obj/**", "WebSDK/LICENSE.md", "WebSDK/README.md"]
+          "files": ["**/*.md", "**/*.yml"],
+          "exclude": ["**/obj/**", "WebSDK/LICENSE.md", "WebSDK/README.md","AppSDK/readme.md"]
         }
       ],
     "resource": [
@@ -14,8 +14,25 @@
         }
     ],
     "globalMetadata": {
-        "ROBOTS": "INDEX, FOLLOW"
+        "ROBOTS": "INDEX, FOLLOW",
+      "breadcrumb_path": "/skype-sdk/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "ms.topic": "conceptual",
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "skype",
+	   "ms.author": "o365devx",
+	   "author": "o365devx",
+	   "ms.date": "04/27/2018"
     },
+	 "fileMetadata": {
+ 	"ms.technology": 
+       { 
+        "WebSDK/**.md" : "sdk",
+		"UCWA/**.md" : "web-api",
+		"SDN/**.md" : "sdn"
+       }
+	},
     "externalReference": [
     ],
     "template": "op.html",

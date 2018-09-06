@@ -1,0 +1,2029 @@
+- name: Skype
+  href: index.md
+  items:
+  - name: Skype Developer platform
+    href: SkypeDeveloperPlatform.md
+    items:
+    - name: Skype URI Development
+      href: SkypeURIs/SkypeDevelopment.md
+      items:
+      - name: Skype SDK for Android
+        href: SkypeURIs/SkypeSDKforAndroid.md
+      - name: Skype URIs
+        href: SkypeURIs/SkypeURIs.md
+        items:
+        - name: Skype URI API reference
+          href: SkypeURIs/SkypeURIAPIReference.md
+        - name: Branding
+          href: SkypeURIs/SkypeURIs_BrandingGuidelines.md
+        - name: FAQs
+          href: SkypeURIs/SkypeURIs_FAQs.md
+        - name: Windows 8 apps tutorial
+          href: SkypeURIs/SkypeURITutorial_Windows8Apps.md
+        - name: Email tutorial
+          href: SkypeURIs/SkypeURITutorial_Email.md
+        - name: Webpages tutorial
+          href: SkypeURIs/SkypeURItutorial_Webpages.md
+        - name: Android apps tutorial
+          href: SkypeURIs/SkypeURITutorial_AndroidApps.md
+        - name: iOS apps tutorial
+          href: SkypeURIs/SkypeURITutorial_iOSApps.md
+    - name: Skype Web SDK
+      href: WebSDK/docs/SkypeWebSDK.md
+      items:
+      - name: Skype Web SDK general reference
+        href: WebSDK/docs/GeneralReference.md
+      - name: Core Capabilities
+        href: WebSDK/docs/CoreCapabilities.md
+        items:
+        - name: Presence
+          href: WebSDK/docs/Presence.md
+        - name: Local User
+          href: WebSDK/docs/LocalUser.md
+        - name: Conversations
+          href: WebSDK/docs/Conversations.md
+        - name: Groups
+          href: WebSDK/docs/Groups.md
+        - name: Person Lists
+          href: WebSDK/docs/PersonLists.md
+        - name: Listening for and generating presence events
+          href: WebSDK/docs/PresenceEvents.md
+        - name: Persons
+          href: WebSDK/docs/Persons.md
+        - name: Devices
+          href: WebSDK/docs/Devices.md
+      - name: Getting Started
+        href: WebSDK/docs/GettingStarted.md
+        items:
+        - name: Downloading and running samples
+          href: WebSDK/docs/DownloadRunSamples.md
+        - name: Skype Web SDK API product keys
+          href: WebSDK/docs/APIProductKeys.md
+      - name: Developing Applications
+        href: WebSDK/docs/DevelopApplications.md
+        items:
+        - name: Architecture
+          href: WebSDK/docs/Architecture.md
+        - name: Object Model
+          href: WebSDK/docs/ObjectModel.md
+        - name: Property Model
+          href: WebSDK/docs/PropertyModel.md
+        - name: Developing for Skype for Business Server
+          href: WebSDK/docs/DevelopForSkypeforBusiness.md
+        - name: Developing Web SDK applications for Skype for Business Online
+          href: WebSDK/docs/DevelopWebSDKappsForSfBOnline.md
+        - name: Troubleshooting Skype for Business Web SDK applications
+          href: WebSDK/docs/troubleshooting/troubleShooting.md
+          items:
+          - name: Troubleshooting Azure AD Authentication Failures for Skype Web SDK
+            href: WebSDK/docs/troubleshooting/auth/AADAuthFailures.md
+          - name: AAD Auth Failures - Providing incorrect client ID
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-ClientID.md
+          - name: 'AAD Auth Failures - Client requesting resource not in requiredResourceAccess list '
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-DelegatePermissions.md
+          - name: AAD Auth Failures - Incorrectly configured reply URLs for application
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-ReplyURLs.md
+          - name: AAD Auth Failures - Administrator has not provided consent to use SfB Web APIs
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-AdminConsent.md
+          - name: AAD Auth Failures - Implicit OAuth is not enabled for the application
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-EnableImplicitOAuth.md
+          - name: AAD Auth Failures - Crossing security zones in Internet Explorer
+            href: WebSDK/docs/troubleshooting/auth/AADAuth-IESecurityZones.md
+          - name: AAD Auth Failures - Invalid CORS redirect URI in Internet Explorer
+            href: WebSDK/docs/troubleshooting/auth/AAdAuth-IECORSRedirectURI.md
+        - name: Gathering logs to troubleshoot issues and submit error reports
+          href: WebSDK/docs/troubleshooting/gatheringLogs/GatherLogs.md
+          items:
+          - name: Gathering console logs from the Skype Web SDK or Conversation Control
+            href: WebSDK/docs/troubleshooting/gatheringLogs/Logs-Console.md
+          - name: Gathering web traffic logs from the Skype Web SDK or Conversation Control
+            href: WebSDK/docs/troubleshooting/gatheringLogs/Logs-WebTraffic.md
+          - name: Gathering media logs from the Skype Web SDK or Conversation Control
+            href: WebSDK/docs/troubleshooting/gatheringLogs/Logs-Media.md
+          - name: Gathering logs from a Skype for Business Desktop Client
+            href: WebSDK/docs/troubleshooting/gatheringLogs/Logs-DesktopClient.md
+        - name: Checking for and handling application errors
+          href: WebSDK/docs/troubleshooting/handlingapplicationerrors.md
+      - name: Programming Tasks
+        href: WebSDK/docs/ProgrammingTasks.md
+        items:
+        - name: Authentication
+          href: WebSDK/docs/PTAuth.md
+          items:
+          - name: Azure AD
+            href: WebSDK/docs/PTAuthAzureAD.md
+          - name: Password
+            href: WebSDK/docs/PTAuthPassword.md
+          - name: Web Ticket
+            href: WebSDK/docs/PTAuthWebTicket.md
+          - name: Windows Auth
+            href: WebSDK/docs/PTAuthWindowsAuth.md
+          - name: Sign Out
+            href: WebSDK/docs/PTAuthSignOut.md
+        - name: Local User
+          href: WebSDK/docs/PTLocalUser.md
+          items:
+          - name: Dashboard
+            href: WebSDK/docs/PTLocalUserDashboard.md
+          - name: Location
+            href: WebSDK/docs/PTLocalUserLocation.md
+          - name: Note
+            href: WebSDK/docs/PTLocalUserNote.md
+          - name: Status
+            href: WebSDK/docs/PTLocalUserStatus.md
+        - name: Contacts
+          href: WebSDK/docs/PTContacts.md
+          items:
+          - name: Search
+            href: WebSDK/docs/PTContactsSearch.md
+          - name: Contact Card
+            href: WebSDK/docs/PTContactsContactCard.md
+          - name: All
+            href: WebSDK/docs/PTContactsAll.md
+        - name: Groups
+          href: WebSDK/docs/PTGroups.md
+          items:
+          - name: Groups Overview
+            href: WebSDK/docs/PTGroupsOverview.md
+          - name: Search
+            href: WebSDK/docs/PTContactsSearch.md
+          - name: Add Contact
+            href: WebSDK/docs/PTGroupsAddContact.md
+          - name: Add Group
+            href: WebSDK/docs/PTGroupsAddGroup.md
+          - name: All
+            href: WebSDK/docs/PTGroupsAll.md
+          - name: Remove Contact
+            href: WebSDK/docs/PTGroupsRemoveContact.md
+          - name: Remove Group
+            href: WebSDK/docs/PTGroupsRemoveGroup.md
+          - name: Rename Group
+            href: WebSDK/docs/PTGroupsRenameGroup.md
+        - name: Chat
+          href: WebSDK/docs/PTChat.md
+          items:
+          - name: Outgoing P2P
+            href: WebSDK/docs/PTChatOutgoingP2P.md
+          - name: Incoming P2P
+            href: WebSDK/docs/PTChatIncomingP2P.md
+          - name: P2P Escalation
+            href: WebSDK/docs/PTChatP2PEscalation.md
+          - name: Group
+            href: WebSDK/docs/PTChatGroup.md
+        - name: Audio
+          href: WebSDK/docs/PTAudio.md
+          items:
+          - name: Outgoing P2P And PSTN
+            href: WebSDK/docs/PTAudioOutgoing.md
+          - name: Incoming P2P And PSTN
+            href: WebSDK/docs/PTAudioIncoming.md
+          - name: P2P Escalation
+            href: WebSDK/docs/PTAudioP2PEscalation.md
+          - name: Group
+            href: WebSDK/docs/PTAudioGroup.md
+          - name: Mute
+            href: WebSDK/docs/PTAudioMute.md
+          - name: Hold Resume
+            href: WebSDK/docs/PTAudioHoldResume.md
+          - name: Phone Audio
+            href: WebSDK/docs/PTAudioPhoneAudio.md
+          - name: Call Transfer
+            href: WebSDK/docs/PTAudioCallTransfer.md
+        - name: Video
+          href: WebSDK/docs/PTVideo.md
+          items:
+          - name: Add Video
+            href: WebSDK/docs/PTVideoAddVideo.md
+          - name: Outgoing P2P
+            href: WebSDK/docs/PTVideoOutgoingP2P.md
+          - name: Incoming P2P
+            href: WebSDK/docs/PTVideoIncomingP2P.md
+          - name: P2P Escalation
+            href: WebSDK/docs/PTVideoP2PEscalation.md
+          - name: Group
+            href: WebSDK/docs/PTVideoGroup.md
+          - name: Group in Google Chrome
+            href: WebSDK/docs/PTVideoGroupGoogleChrome.md
+        - name: Meetings
+          href: WebSDK/docs/PTMeetings.md
+          items:
+          - name: Schedule Meeting
+            href: WebSDK/docs/ScheduleMeeting.md
+        - name: History
+          href: WebSDK/docs/PTHistory.md
+          items:
+          - name: Conversation History
+            href: WebSDK/docs/PTHistoryConversation.md
+        - name: UI Controls
+          href: WebSDK/docs/PTUIControls.md
+          items:
+          - name: Conversation Control(s)
+            href: WebSDK/docs/PTUIControlsConversationControl.md
+        - name: Devices Manager
+          href: WebSDK/docs/PTDevicesManager.md
+          items:
+          - name: Manage Devices
+            href: WebSDK/docs/PTDevicesManagerManageDevices.md
+      - name: Release Notes
+        href: WebSDK/docs/ReleaseNotes.md
+        items:
+        - name: Skype Web SDK Version Update Notifications
+          href: WebSDK/docs/SkypeWebSDKVersionUpdateNotifications.md
+      - name: CONTRIBUTING
+        href: https://github.com/OfficeDev/skype-docs/blob/master/CONTRIBUTING.md
+      - name: Terms Of Service
+        href: WebSDK/docs/TermsOfService.md
+    - name: Skype for Business App SDK
+      href: AppSDK/SkypeAppSDK.md
+      items:
+      - name: 'Overview: Embed B2C communications'
+        href: AppSDK/EmbedSkypeB2Ccomms.md
+      - name: Getting started
+        href: AppSDK/GettingStarted.md
+        items:
+        - name: Get an on-premise meeting URL
+          href: AppSDK/GetMeetingURL.md
+        - name: Get meeting join resources for Skype for Business Online meetings
+          href: AppSDK/GetOnlineMeetingJoinResources.md
+        - name: Use the SDK to join a meeting with an Android device
+          href: AppSDK/HowToJoinMeeting_Android.md
+        - name: Use the App SDK and the Trusted Application API to join an Online meeting - Android
+          href: AppSDK/HowToJoinOnlineMeeting_Android.md
+        - name: Use the SDK to join a meeting with an iOS device
+          href: AppSDK/HowToJoinMeeting_iOS.md
+        - name: Use the App SDK and the Trusted Application API to join an Online meeting - iOS
+          href: AppSDK/HowToJoinOnlineMeeting_iOS.md
+      - name: Orientation
+        href: AppSDK/Orientation.md
+        items:
+        - name: API Overview
+          href: AppSDK/APIoverview.md
+        - name: Platform considerations
+          href: AppSDK/PlatformConsiderations.md
+        - name: Versioning
+          href: AppSDK/Versioning.md
+      - name: Release Notes
+        href: AppSDK/ReleaseNotes.md
+      - name: Download
+        href: AppSDK/Download.md
+      - name: Samples
+        href: AppSDK/Samples.md
+        items:
+        - name: The ConversationHelper class
+          href: AppSDK/ConversationHelperCodeList.md
+      - name: Submit your questions, bugs, feature requests, and contributions
+        href: AppSDK/Feedback.md
+    - name: Skype for Business Bot Framework (Preview)
+      href: Skype-For-Business-Bot-Framework/docs/Overview.md
+      items:
+      - name: Skype for Business Bot - Hybrid environment support
+        href: Skype-For-Business-Bot-Framework/docs/Bot-Hybrid-Support.md
+      - name: Skype for Business Bot - Common Errors
+        href: Skype-For-Business-Bot-Framework/docs/Bot-Common-Errors.md
+    - name: Trusted Application API
+      href: Trusted-Application-API/docs/Overview.md
+      items:
+      - name: Enabling communications services for the cloud
+        href: Trusted-Application-API/docs/Trusted_Application_API_GeneralReference.md
+        items:
+        - name: Key Scenarios
+          href: Trusted-Application-API/docs/keyscenarios.md
+        - name: Key programming concepts
+          href: Trusted-Application-API/docs/NewConcepts.md
+          items:
+          - name: Webhooks (Events)
+            href: Trusted-Application-API/docs/Webhooks.md
+        - name: Key terms
+          href: Trusted-Application-API/docs/KeyTerms.md
+        - name: Trusted Application API permissions
+          href: Trusted-Application-API/docs/Application_Permissions.md
+      - name: Developing Trusted Application API applications for Skype for Business Online
+        href: Trusted-Application-API/docs/DevelopingApplicationsforSFBOnline.md
+        items:
+        - name: Registration in Azure Active Directory
+          href: Trusted-Application-API/docs/RegistrationInAzureActiveDirectory.md
+        - name: Azure Active Directory - Service to Service calls using Client Credentials
+          href: Trusted-Application-API/docs/AADS2S.md
+        - name: Tenant Admin Consent
+          href: Trusted-Application-API/docs/TenantAdminConsent.md
+        - name: Set up a Trusted Application Endpoint
+          href: Trusted-Application-API/docs/TrustedApplicationEndpoint.md
+        - name: Registering a Trusted Application in Skype for Business Online
+          href: Trusted-Application-API/docs/SfBRegistration.md
+        - name: Discovery for Service Applications
+          href: Trusted-Application-API/docs/DiscoveryForServiceApplications.md
+        - name: Authentication and Authorization
+          href: Trusted-Application-API/docs/AuthenticationAndAuthorization.md
+          items:
+          - name: Anonymous Meeting Join
+            href: Trusted-Application-API/docs/AnonymousMeetingJoin.md
+            items:
+            - name: Anonymous Meeting Scheduling
+              href: Trusted-Application-API/docs/AnonymousMeetingSchedule.md
+            - name: Implementing an Anonymous Client with the Skype Web SDK
+              href: Trusted-Application-API/docs/ImplementingAnonymousClientWithSkypeWebSDK.md
+            - name: Implementing an Anonymous Client with the Skype App SDK - Android
+              href: Trusted-Application-API/docs/ImplementingAnonymousClientWithSkypeAppSDK.md
+            - name: Implementing an Anonymous Client with the Skype App SDK - iOS
+              href: Trusted-Application-API/docs/ImplementingAnonymousClientWithSkypeAppSDK_iOS.md
+            - name: Anonymous Meeting Join Common Errors
+              href: Trusted-Application-API/docs/AnonymousMeetingCommonErrors.md
+      - name: Trusted Application API samples
+        href: Trusted-Application-API/docs/Samples.md
+      - name: Trusted Application API reference
+        href: Trusted-Application-API/docs/ReferenceLibrary.md
+    - name: Unified Communications Web API (UCWA)
+      href: UCWA/UnifiedCommunicationsWebAPI2_0.md
+      items:
+      - name: UCWA 2.0 general reference
+        href: UCWA/UCWA2_0GeneralReference.md
+        items:
+        - name: What's New in UCWA 2.0
+          href: UCWA/WhatsNewInUCWA2_0.md
+        - name: Core capabilities
+          href: UCWA/CoreCapabilities.md
+        - name: Key programming concepts
+          href: UCWA/KeyProgrammingConcepts.md
+          items:
+          - name: HTTP
+            href: UCWA/HTTP.md
+          - name: Hypermedia
+            href: UCWA/Hypermedia.md
+          - name: Resources in UCWA
+            href: UCWA/ResourcesInUCWA.md
+          - name: Payload Format
+            href: UCWA/PayloadFormat.md
+          - name: Query Parameters
+            href: UCWA/QueryParameters.md
+          - name: Events in UCWA
+            href: UCWA/EventsInUCWA.md
+          - name: Operation resource
+            href: UCWA/OperationResource.md
+          - name: Cross-domain communication
+            href: UCWA/CrossDomainCommunication.md
+          - name: Caching
+            href: UCWA/Caching.md
+          - name: Grouping requests in a batch
+            href: UCWA/GroupingRequestsInABatch.md
+          - name: Errors and informational messages
+            href: UCWA/ErrorsAndInformationalMessages.md
+          - name: Versioning
+            href: UCWA/Versioning.md
+        - name: Dashboard concepts
+          href: UCWA/DashboardConcepts.md
+          items:
+          - name: Application dashboard
+            href: UCWA/ApplicationDashboard.md
+          - name: Me dashboard
+            href: UCWA/MeDashboard.md
+          - name: People dashboard
+            href: UCWA/PeopleDashboard.md
+          - name: Communication dashboard
+            href: UCWA/CommunicationDashboard.md
+          - name: Online meetings dashboard
+            href: UCWA/OnlineMeetingsDashboard.md
+        - name: Developing applications with UCWA
+          href: UCWA/DevelopingApplicationsWithUCWA.md
+          items:
+          - name: Developing UCWA applications for Skype for Business Server
+            href: UCWA/DevelopingUCWAApplicationsForSkypeForBusinessServer.md
+            items:
+            - name: Cross-domain IFRAME
+              href: UCWA/Cross_domainIFRAME.md
+            - name: Root URL
+              href: UCWA/RootURL.md
+            - name: Authentication in UCWA
+              href: UCWA/AuthenticationInUCWA.md
+            - name: UCWA IT Administration
+              href: UCWA/UCWA_IT_Administration.md
+              items:
+              - name: Architecture
+                href: UCWA/Architecture.md
+              - name: Supported topologies
+                href: UCWA/SupportedTopologies.md
+              - name: Configuring a topology
+                href: UCWA/ConfiguringATopology.md
+          - name: Developing UCWA applications for Skype for Business Online
+            href: UCWA/DevelopingUCWAApplicationsForSfBOnline.md
+            items:
+            - name: Registering your application in Azure AD
+              href: UCWA/RegisteringYourApplicationInAzureAD.md
+            - name: Authentication using Azure AD
+              href: UCWA/AuthenticationUsingAzureAD.md
+            - name: Skype for Business Online scope permissions
+              href: UCWA/SkypeForBusinessOnlineScopePermissions.md
+          - name: Event channel details
+            href: UCWA/EventChannelDetails.md
+          - name: Batching requests
+            href: UCWA/BatchingRequests.md
+          - name: Web links
+            href: UCWA/WebLinks.md
+        - name: Key tasks
+          href: UCWA/KeyTasks.md
+          items:
+          - name: Create an application
+            href: UCWA/CreateAnApplication.md
+          - name: Me tasks
+            href: UCWA/MeTasks.md
+            items:
+            - name: Get my presence information
+              href: UCWA/GetMyPresenceInformation.md
+            - name: Set my presence information
+              href: UCWA/SetMyPresenceInformation.md
+            - name: Reset my presence information
+              href: UCWA/ResetMyPresenceInformation.md
+            - name: Get my note information
+              href: UCWA/GetMyNoteInformation.md
+            - name: Set my note information
+              href: UCWA/Setmynoteinformation.md
+            - name: Reset my note information
+              href: UCWA/ResetMyNoteInfo.md
+            - name: Get my photo
+              href: UCWA/GetMyPhoto.md
+          - name: People tasks (UCWA)
+            href: UCWA/PeopleTasks.md
+            items:
+            - name: Get the user's contact list
+              href: UCWA/GetUsersContactList.md
+            - name: Get a contact's data
+              href: UCWA/GetAContactData.md
+            - name: Get presence data of a contact
+              href: UCWA/GetPresenceDataOfAContact.md
+            - name: Search for a user's contact
+              href: UCWA/SearchForUsersContact.md
+            - name: Subscribe to the presence of a group of contacts
+              href: UCWA/SubscribeToThePresenceOfAGroupOfContacts.md
+            - name: Subscribe to the presence of selected contacts
+              href: UCWA/SubscribeToThePresenceOfSelectedContacts.md
+            - name: Extend a presence subscription
+              href: UCWA/ExtendAPresenceSubscription.md
+            - name: Delete a presence subscription
+              href: UCWA/DeleteAPresenceSubscription.md
+          - name: Communication tasks
+            href: UCWA/CommunicationTasks.md
+            items:
+            - name: Send an IM
+              href: UCWA/SendAnIM.md
+            - name: Receive an IM
+              href: UCWA/ReceiveAnIM.md
+          - name: Online meeting tasks
+            href: UCWA/OnlineMeetingTasks.md
+            items:
+            - name: Schedule an online meeting
+              href: UCWA/ScheduleAnOnlineMeeting.md
+            - name: Update an online meeting
+              href: UCWA/UpdateAnOnlineMeeting.md
+        - name: Advanced topics
+          href: UCWA/AdvancedTopics.md
+          items:
+          - name: Trace and debug tools
+            href: UCWA/TraceAndDebugTools.md
+      - name: UCWA 2.0 API reference
+        href: UCWA/UCWA2_0APIReference.md
+        items:
+        - name: UCWA resources
+          href: UCWA/UCWAResources.md
+          items:
+          - name: accept
+            href: UCWA/accept_ref.md
+          - name: acceptedByContact
+            href: UCWA/acceptedByContact_ref.md
+          - name: acceptedByParticipant
+            href: UCWA/acceptedByParticipant_ref.md
+          - name: addMessaging
+            href: UCWA/addMessaging_ref.md
+          - name: addParticipant
+            href: UCWA/addParticipant_ref.md
+          - name: addPhoneAudio
+            href: UCWA/addPhoneAudio_ref.md
+          - name: addToContactList
+            href: UCWA/addToContactList_ref.md
+          - name: addToPresenceSubscription
+            href: UCWA/addToPresenceSubscription_ref.md
+          - name: admit
+            href: UCWA/admit_ref.md
+          - name: application
+            href: UCWA/application_ref.md
+          - name: applications
+            href: UCWA/applications_ref.md
+          - name: applications2
+            href: UCWA/applications2_ref.md
+          - name: applicationSharer
+            href: UCWA/applicationSharer_ref.md
+          - name: applicationSharing
+            href: UCWA/applicationSharing_ref.md
+          - name: attendees
+            href: UCWA/attendees_ref.md
+          - name: audioTranscript
+            href: UCWA/audioTranscript_ref.md
+          - name: audioVideo
+            href: UCWA/audioVideo_ref.md
+          - name: batch
+            href: UCWA/batch_ref.md
+          - name: callForwardingSettings
+            href: UCWA/callForwardingSettings_ref.md
+          - name: cancel
+            href: UCWA/cancel_ref.md
+          - name: changeNumber
+            href: UCWA/changeNumber_ref.md
+          - name: changeVisibility
+            href: UCWA/changeVisibility_ref.md
+          - name: communication
+            href: UCWA/communication_ref.md
+          - name: contact
+            href: UCWA/contact_ref.md
+          - name: contactLocation
+            href: UCWA/contactLocation_ref.md
+          - name: contactNote
+            href: UCWA/contactNote_ref.md
+          - name: contactPhoto
+            href: UCWA/contactPhoto_ref.md
+          - name: contactPresence
+            href: UCWA/contactPresence_ref.md
+          - name: contactPrivacyRelationship
+            href: UCWA/contactPrivacyRelationship_ref.md
+          - name: contactPrivacyRelationship2
+            href: UCWA/contactPrivacyRelationship2_ref.md
+          - name: contactSupportedModalities
+            href: UCWA/contactSupportedModalities_ref.md
+          - name: continueMessaging
+            href: UCWA/continueMessaging_ref.md
+          - name: continuePhoneAudio
+            href: UCWA/continuePhoneAudio_ref.md
+          - name: conversation
+            href: UCWA/conversation_ref.md
+          - name: conversationLog
+            href: UCWA/conversationLog_ref.md
+          - name: conversationLogRecipient
+            href: UCWA/conversationLogRecipient_ref.md
+          - name: conversationLogs
+            href: UCWA/conversationLogs_ref.md
+          - name: conversationLogTranscript
+            href: UCWA/conversationLogTranscript_ref.md
+          - name: conversationLogTranscripts
+            href: UCWA/conversationLogTranscripts_ref.md
+          - name: conversations
+            href: UCWA/conversations_ref.md
+          - name: dataCollaboration
+            href: UCWA/dataCollaboration_ref.md
+          - name: decline
+            href: UCWA/decline_ref.md
+          - name: defaultGroup
+            href: UCWA/defaultGroup_ref.md
+          - name: demote
+            href: UCWA/demote_ref.md
+          - name: derivedConversation
+            href: UCWA/derivedConversation_ref.md
+          - name: derivedMessaging
+            href: UCWA/derivedMessaging_ref.md
+          - name: derivedPhoneAudio
+            href: UCWA/derivedPhoneAudio_ref.md
+          - name: dialInRegion
+            href: UCWA/dialInRegion_ref.md
+          - name: disableAudienceMessaging
+            href: UCWA/disableAudienceMessaging_ref.md
+          - name: disableAudienceMuteLock
+            href: UCWA/disableAudienceMuteLock_ref.md
+          - name: distributionGroup
+            href: UCWA/distributionGroup_ref.md
+          - name: eject
+            href: UCWA/eject_ref.md
+          - name: enableAudienceMessaging
+            href: UCWA/enableAudienceMessaging_ref.md
+          - name: enableAudienceMuteLock
+            href: UCWA/enableAudienceMuteLock_ref.md
+          - name: errorTranscript
+            href: UCWA/errorTranscript_ref.md
+          - name: events
+            href: UCWA/events_ref.md
+          - name: expandDistributionGroup
+            href: UCWA/expandDistributionGroup_ref.md
+          - name: failedDeliveryParticipant
+            href: UCWA/failedDeliveryParticipant_ref.md
+          - name: forwardedBy
+            href: UCWA/forwardedBy_ref.md
+          - name: from
+            href: UCWA/from_ref.md
+          - name: group
+            href: UCWA/group_ref.md
+          - name: group2
+            href: UCWA/group2_ref.md
+          - name: groupContacts
+            href: UCWA/groupContacts_ref.md
+          - name: groupMemberships
+            href: UCWA/groupMemberships_ref.md
+          - name: holdPhoneAudio
+            href: UCWA/holdPhoneAudio_ref.md
+          - name: immediateForwardSettings
+            href: UCWA/immediateForwardSettings_ref.md
+          - name: immediateForwardToContact
+            href: UCWA/immediateForwardToContact_ref.md
+          - name: immediateForwardToDelegates
+            href: UCWA/immediateForwardToDelegates_ref.md
+          - name: immediateForwardToVoicemail
+            href: UCWA/immediateForwardToVoicemail_ref.md
+          - name: joinOnlineMeeting
+            href: UCWA/joinOnlineMeeting_ref.md
+          - name: leaders
+            href: UCWA/leaders_ref.md
+          - name: lobby
+            href: UCWA/lobby_ref.md
+          - name: localParticipant
+            href: UCWA/localParticipant_ref.md
+          - name: location
+            href: UCWA/location_ref.md
+          - name: makeMeAvailable
+            href: UCWA/makeMeAvailable_ref.md
+          - name: markAsRead
+            href: UCWA/markAsRead_ref.md
+          - name: me
+            href: UCWA/me_ref.md
+          - name: memberships
+            href: UCWA/memberships_ref.md
+          - name: message
+            href: UCWA/message_ref.md
+          - name: messageTranscript
+            href: UCWA/messageTranscript_ref.md
+          - name: messaging
+            href: UCWA/messaging_ref.md
+          - name: messagingInvitation
+            href: UCWA/messagingInvitation_ref.md
+          - name: missedItems
+            href: UCWA/missedItems_ref.md
+          - name: muteAudio
+            href: UCWA/muteAudio_ref.md
+          - name: muteVideo
+            href: UCWA/muteVideo_ref.md
+          - name: myAssignedOnlineMeeting
+            href: UCWA/myAssignedOnlineMeeting_ref.md
+          - name: myContacts
+            href: UCWA/myContacts_ref.md
+          - name: myContactsAndGroupsSubscription
+            href: UCWA/myContactsAndGroupsSubscription_ref.md
+          - name: myGroupMembership
+            href: UCWA/myGroupMembership_ref.md
+          - name: myGroupMembership2
+            href: UCWA/myGroupMembership2_ref.md
+          - name: myGroupMemberships
+            href: UCWA/myGroupMemberships_ref.md
+          - name: myGroupMemberships2
+            href: UCWA/myGroupMemberships2_ref.md
+          - name: myGroups
+            href: UCWA/myGroups_ref.md
+          - name: myGroups2
+            href: UCWA/myGroups2_ref.md
+          - name: myOnlineMeeting
+            href: UCWA/myOnlineMeeting_ref.md
+          - name: myOnlineMeetings
+            href: UCWA/myOnlineMeetings_ref.md
+          - name: myPrivacyRelationship
+            href: UCWA/myPrivacyRelationship_ref.md
+          - name: myPrivacyRelationships
+            href: UCWA/myPrivacyRelationships_ref.md
+          - name: nextConversationLogTranscripts
+            href: UCWA/nextConversationLogTranscripts_ref.md
+          - name: note
+            href: UCWA/note_ref.md
+          - name: onBehalfOf
+            href: UCWA/onBehalfOf_ref.md
+          - name: onlineMeeting
+            href: UCWA/onlineMeeting_ref.md
+          - name: onlineMeetingDefaultValues
+            href: UCWA/onlineMeetingDefaultValues_ref.md
+          - name: onlineMeetingEligibleValues
+            href: UCWA/onlineMeetingEligibleValues_ref.md
+          - name: onlineMeetingExtension
+            href: UCWA/onlineMeetingExtension_ref.md
+          - name: onlineMeetingExtensions
+            href: UCWA/onlineMeetingExtensions_ref.md
+          - name: onlineMeetingInvitation
+            href: UCWA/onlineMeetingInvitation_ref.md
+          - name: onlineMeetingInvitationCustomization
+            href: UCWA/onlineMeetingInvitationCustomization_ref.md
+          - name: onlineMeetingPolicies
+            href: UCWA/onlineMeetingPolicies_ref.md
+          - name: onlineMeetings
+            href: UCWA/onlineMeetings_ref.md
+          - name: organizer
+            href: UCWA/organizer_ref.md
+          - name: participant
+            href: UCWA/participant_ref.md
+          - name: participantApplicationSharing
+            href: UCWA/participantApplicationSharing_ref.md
+          - name: participantAudio
+            href: UCWA/participantAudio_ref.md
+          - name: participantDataCollaboration
+            href: UCWA/participantDataCollaboration_ref.md
+          - name: participantInvitation
+            href: UCWA/participantInvitation_ref.md
+          - name: participantMessaging
+            href: UCWA/participantMessaging_ref.md
+          - name: participantPanoramicVideo
+            href: UCWA/participantPanoramicVideo_ref.md
+          - name: participantVideo
+            href: UCWA/participantVideo_ref.md
+          - name: people
+            href: UCWA/people_ref.md
+          - name: phone
+            href: UCWA/phone_ref.md
+          - name: phoneAudio
+            href: UCWA/phoneAudio_ref.md
+          - name: phoneAudioInvitation
+            href: UCWA/phoneAudioInvitation_ref.md
+          - name: phoneDialInInformation
+            href: UCWA/phoneDialInInformation_ref.md
+          - name: phones
+            href: UCWA/phones_ref.md
+          - name: photo
+            href: UCWA/photo_ref.md
+          - name: pinnedGroup
+            href: UCWA/pinnedGroup_ref.md
+          - name: policies
+            href: UCWA/policies_ref.md
+          - name: presence
+            href: UCWA/presence_ref.md
+          - name: presenceSubscription
+            href: UCWA/presenceSubscription_ref.md
+          - name: presenceSubscriptionMembership
+            href: UCWA/presenceSubscriptionMembership_ref.md
+          - name: presenceSubscriptionMemberships
+            href: UCWA/presenceSubscriptionMemberships_ref.md
+          - name: presenceSubscriptions
+            href: UCWA/presenceSubscriptions_ref.md
+          - name: promote
+            href: UCWA/promote_ref.md
+          - name: reason
+            href: UCWA/reason_ref.md
+          - name: redirect
+            href: UCWA/redirect_ref.md
+          - name: reject
+            href: UCWA/reject_ref.md
+          - name: removeContactFromAllGroups
+            href: UCWA/removeContactFromAllGroups_ref.md
+          - name: removeContactFromAllGroups2
+            href: UCWA/removeContactFromAllGroups2_ref.md
+          - name: removeFromContactList
+            href: UCWA/removeFromContactList_ref.md
+          - name: reportMyActivity
+            href: UCWA/reportMyActivity_ref.md
+          - name: resetContactPrivacyRelationship
+            href: UCWA/resetContactPrivacyRelationship_ref.md
+          - name: resetUnansweredCallSettings
+            href: UCWA/resetUnansweredCallSettings_ref.md
+          - name: ResourceList
+            href: UCWA/ResourceList.md
+          - name: resumePhoneAudio
+            href: UCWA/resumePhoneAudio_Ref.md
+          - name: root
+            href: UCWA/root_ref.md
+          - name: search
+            href: UCWA/search_ref.md
+          - name: search2
+            href: UCWA/search2_ref.md
+          - name: sendMessage
+            href: UCWA/sendMessage_ref.md
+          - name: setIsTyping
+            href: UCWA/setIsTyping_ref.md
+          - name: simultaneousRingSettings
+            href: UCWA/simultaneousRingSettings_ref.md
+          - name: simultaneousRingToContact
+            href: UCWA/simultaneousRingToContact_ref.md
+          - name: simultaneousRingToDelegates
+            href: UCWA/simultaneousRingToDelegates_ref.md
+          - name: simultaneousRingToTeam
+            href: UCWA/simultaneousRingToTeam_ref.md
+          - name: startMessaging
+            href: UCWA/startMessaging_ref.md
+          - name: startMessaging2
+            href: UCWA/startMessaging2_ref.md
+          - name: startOnlineMeeting
+            href: UCWA/startOnlineMeeting_ref.md
+          - name: startOrRefreshSubscriptionToContactsAndGroups
+            href: UCWA/startOrRefreshSubscriptionToContactsAndGroups_ref.md
+          - name: startPhoneAudio
+            href: UCWA/startPhoneAudio_ref.md
+          - name: startPhoneAudio2
+            href: UCWA/startPhoneAudio2_ref.md
+          - name: stopMessaging
+            href: UCWA/stopMessaging_ref.md
+          - name: stopPhoneAudio
+            href: UCWA/stopPhoneAudio_ref.md
+          - name: stopSubscriptionToContactsAndGroups
+            href: UCWA/stopSubscriptionToContactsAndGroups_ref.md
+          - name: subscribedContacts
+            href: UCWA/subscribedContacts_ref.md
+          - name: subscribeToGroupPresence
+            href: UCWA/subscribeToGroupPresence_ref.md
+          - name: to
+            href: UCWA/to_ref.md
+          - name: transferredBy
+            href: UCWA/transferredBy_ref.md
+          - name: turnOffCallForwarding
+            href: UCWA/turnOffCallForwarding_ref.md
+          - name: typingParticipants
+            href: UCWA/typingParticipants_ref.md
+          - name: unansweredCallSettings
+            href: UCWA/unansweredCallSettings_ref.md
+          - name: unansweredCallToContact
+            href: UCWA/unansweredCallToContact_ref.md
+          - name: unansweredCallToVoicemail
+            href: UCWA/unansweredCallToVoicemail_ref.md
+          - name: unmuteAudio
+            href: UCWA/unmuteAudio_ref.md
+          - name: unmuteVideo
+            href: UCWA/unmuteVideo_ref.md
+          - name: user
+            href: UCWA/user_ref.md
+          - name: videoLockedOnParticipant
+            href: UCWA/videoLockedOnParticipant_ref.md
+          - name: xframe
+            href: UCWA/xframe_ref.md
+        - name: UCWA enumerations
+          href: UCWA/UCWAenumerations.md
+          items:
+          - name: AccessLevel
+            href: UCWA/AccessLevel_ref.md
+          - name: ActivePeriod
+            href: UCWA/ActivePeriod_ref.md
+          - name: AudienceMessaging
+            href: UCWA/AudienceMessaging_ref.md
+          - name: AudienceMuteLock
+            href: UCWA/AudienceMuteLock_ref.md
+          - name: AutomaticLeaderAssignment
+            href: UCWA/AutomaticLeaderAssignment_ref.md
+          - name: Availability
+            href: UCWA/Availability_ref.md
+          - name: CallDeclineReason
+            href: UCWA/CallDeclineReason_ref.md
+          - name: CallForwardingState
+            href: UCWA/CallForwardingState_ref.md
+          - name: CallState
+            href: UCWA/CallState_ref.md
+          - name: ContactDeviceType
+            href: UCWA/ContactDeviceType_ref.md
+          - name: ContactType
+            href: UCWA/ContactType_ref.md
+          - name: ConversationModalityType
+            href: UCWA/ConversationModalityType_ref.md
+          - name: ConversationState
+            href: UCWA/ConversationState_ref.md
+          - name: Direction
+            href: UCWA/Direction_ref.md
+          - name: EntryExitAnnouncement
+            href: UCWA/EntryExitAnnouncement_ref.md
+          - name: ErrorCode
+            href: UCWA/ErrorCode_ref.md
+          - name: ErrorSubcode
+            href: UCWA/ErrorSubcode_ref.md
+          - name: GenericPolicy
+            href: UCWA/GenericPolicy_ref.md
+          - name: ImmediateForwardSettingsTarget
+            href: UCWA/ImmediateForwardSettingsTarget_ref.md
+          - name: Importance
+            href: UCWA/Importance_ref.md
+          - name: InvitationState
+            href: UCWA/InvitationState_ref.md
+          - name: LargeMeetingMode
+            href: UCWA/LargeMeetingMode_ref.md
+          - name: LobbyBypassForPhoneUsers
+            href: UCWA/LobbyBypassForPhoneUsers_ref.md
+          - name: MediaDirectionType
+            href: UCWA/MediaDirectionType_ref.md
+          - name: MessageFormat
+            href: UCWA/MessageFormat_ref.md
+          - name: ModalityType
+            href: UCWA/ModalityType_ref.md
+          - name: NoteType
+            href: UCWA/NoteType_ref.md
+          - name: OnlineMeetingExtensionType
+            href: UCWA/OnlineMeetingExtensionType_ref.md
+          - name: OnlineMeetingRel
+            href: UCWA/OnlineMeetingRel_ref.md
+          - name: PhoneUserAdmission
+            href: UCWA/PhoneUserAdmission_ref.md
+          - name: PreferredAvailability
+            href: UCWA/PreferredAvailability_ref.md
+          - name: PrivacyRelationshipLevel
+            href: UCWA/PrivacyRelationshipLevel_ref.md
+          - name: Role
+            href: UCWA/Role_ref.md
+          - name: SimultaneousRingTarget
+            href: UCWA/SimultaneousRingTarget_ref.md
+          - name: SourceNetwork
+            href: UCWA/SourceNetwork_ref.md
+          - name: Status
+            href: UCWA/Status_ref.md
+          - name: SubscriptionState
+            href: UCWA/SubscriptionState_ref.md
+          - name: UnansweredCallHandling
+            href: UCWA/UnansweredCallHandling_ref.md
+          - name: UnansweredCallHandlingTarget
+            href: UCWA/UnansweredCallHandlingTarget_ref.md
+          - name: VideoSourcesAllowed
+            href: UCWA/VideoSourcesAllowed_ref.md
+          - name: AudioTranscriptStatus
+            href: UCWA/AudioTranscriptStatus_ref.md
+          - name: ConversationLogStatus
+            href: UCWA/ConversationLogStatus_ref.md
+          - name: ConversationLogType
+            href: UCWA/ConversationLogType_ref.md
+          - name: ErrorTranscriptReason
+            href: UCWA/ErrorTranscriptReason_ref.md
+        - name: UCWA helper library
+          href: UCWA/UCWAHelperLibrary.md
+          items:
+          - name: Authentication library
+            href: UCWA/AuthenticationLibrary.md
+          - name: AutoDiscovery library
+            href: UCWA/AutoDiscoveryLibrary.md
+          - name: Batch library
+            href: UCWA/BatchLibrary.md
+          - name: Cache library
+            href: UCWA/CacheLibrary.md
+          - name: Events library
+            href: UCWA/EventsLibrary.md
+          - name: GeneralHelper library
+            href: UCWA/GeneralHelperLibrary.md
+          - name: Mime library
+            href: UCWA/MimeLibrary.md
+          - name: OperationResource library
+            href: UCWA/OperationResourcelibrary.md
+          - name: Transport library
+            href: UCWA/TransportLibrary.md
+        - name: Generic synchronous errors
+          href: UCWA/GenericSynchronousErrors.md
+    - name: Skype for Business Uris
+      href: Skype-For-Business-Uris/SfBMobileURI.md
+    - name: Unified Communications Managed API (UCMA)
+      href: https://msdn.microsoft.com/en-us/library/office/dn454984(v=office.16).aspx
+    - name: Skype for Business SDN Interface
+      href: SDN/articles/skype-for-business-sdn-interface.md
+      items:
+      - name: Overview
+        href: SDN/articles/overview.md
+        items:
+        - name: Release Notes
+          href: SDN/articles/release-notes.md
+        - name: Understanding SDN Interface
+          href: SDN/articles/understanding-sdn-interface.md
+          items:
+          - name: Using the SDN Interface
+            href: SDN/articles/using-the-sdn-interface.md
+          - name: Interface Architecture
+            href: SDN/articles/interface-architecture.md
+          - name: Deploying the SDN Interface
+            href: SDN/articles/deploying-the-sdn-interface.md
+          - name: New Features
+            href: SDN/articles/new-features.md
+            items:
+            - name: PowerShell Provisioning
+              href: SDN/articles/powershell-provisioning.md
+            - name: Subscriber Obfuscation
+              href: SDN/articles/subscriber-obfuscation.md
+            - name: Schema Extensions
+              href: SDN/articles/schema-extensions.md
+            - name: In-call QoE algorithm and throttling
+              href: SDN/articles/in-call-qoe-algorithm-and-throttling.md
+        - name: Installing SDN Interface
+          href: SDN/articles/installing-sdn-interface.md
+          items:
+          - name: Getting ready to install SDN Interface
+            href: SDN/articles/getting-ready-to-install-sdn-interface.md
+            items:
+            - name: Activating QoE recording
+              href: SDN/articles/activating-qoe-recording.md
+            - name: Setting up a DNS service location record
+              href: SDN/articles/setting-up-a-dns-service-location-record.md
+            - name: Setting up SQL Server for a SDN manager db
+              href: SDN/articles/setting-up-sql-server-for-a-sdn-manager-db.md
+            - name: Setting up a Redis cache system
+              href: SDN/articles/setting-up-a-redis-cache-system.md
+            - name: Installing security certificates
+              href: SDN/articles/installing-security-certificates.md
+          - name: Installing the SDN Manager
+            href: SDN/articles/installing-the-sdn-manager.md
+          - name: Installing the Dialog Listener
+            href: SDN/articles/installing-the-dialog-listener.md
+          - name: Unattended installation
+            href: SDN/articles/unattended-installation.md
+        - name: Upgrading from previous versions
+          href: SDN/articles/upgrading-from-previous-versions.md
+        - name: Configuring SDN Interface
+          href: SDN/articles/configuring-sdn-interface.md
+          items:
+          - name: Configuring  logging options
+            href: SDN/articles/configuring-logging-options.md
+          - name: Configuring Dialog Listener
+            href: SDN/articles/configuring-dialog-listener.md
+          - name: Configuring SDN Manager
+            href: SDN/articles/configuring-sdn-manager.md
+          - name: Configuring SDN manager using the config file
+            href: SDN/articles/configuring-sdn-manager-using-the-config-file.md
+          - name: Configuring SDN Interface using the command prompt
+            href: SDN/articles/configuring-sdn-interface-using-the-command-prompt.md
+        - name: Running and debugging SDN Interface
+          href: SDN/articles/running-and-debugging-sdn-interface.md
+          items:
+          - name: Running the Dialog Listene
+            href: SDN/articles/running-the-dialog-listene.md
+          - name: Running the SDN Manager
+            href: SDN/articles/running-the-sdn-manager.md
+          - name: Debugging the Dialog Listener
+            href: SDN/articles/debugging-the-dialog-listener.md
+          - name: Debugging the SDN Manager
+            href: SDN/articles/debugging-the-sdn-manager.md
+          - name: Monitoring the SDN Manager and Dialog Listener
+            href: SDN/articles/monitoring-the-sdn-manager-and-dialog-listener.md
+          - name: SDN Manager and Dialog Listener performance counters
+            href: SDN/articles/sdn-manager-and-dialog-listener-performance-counters.md
+          - name: Uninstalling the SDN Interface components
+            href: SDN/articles/uninstalling-the-sdn-interface-components.md
+          - name: Configuring InCallQoE Messages
+            href: SDN/articles/configuring-incallqoe-messages.md
+          - name: Using SIP Obfuscator for the SDN Interface
+            href: SDN/articles/using-sip-obfuscator-for-the-sdn-interface.md
+        - name: Appendix
+          href: SDN/articles/appendix.md
+          items:
+          - name: Installing the trusted root certificate
+            href: SDN/articles/installing-the-trusted-root-certificate.md
+          - name: Dialog Listener configuration file example
+            href: SDN/articles/dialog-listener-configuration-file-example.md
+          - name: SDN Manager configuration file example
+            href: SDN/articles/sdn-manager-configuration-file-example.md
+          - name: SDN Manager command-line example
+            href: SDN/articles/sdn-manager-command-line-example.md
+          - name: SDN Interface Bandwidth Estimates
+            href: SDN/articles/sdn-interface-bandwidth-estimates.md
+          - name: SDN Interface Performance Overview
+            href: SDN/articles/sdn-interface-performance-overview.md
+      - name: Skype for Business SDN Interface Schema Reference
+        href: SDN/articles/skype-for-business-sdn-interface-schema-reference.md
+        items:
+          - name: Skype for Business SDN Interface 2.2, Schema C
+            href: SDN/articles/skype-for-business-sdn-interface-2-2-schema-c.md
+            items:
+            - name: Schema map (Skype for Business SDN Interface 2.2, Schema C)
+              href: SDN/articles/schema-map-skype-for-business-sdn-interface-2-2-schema-c.md
+            - name: Elements (Skype for Business SDN Interface 2.2, Schema C)
+              href: SDN/articles/elements-skype-for-business-sdn-interface-2-2-schema-c.md
+              items:
+              - name: AppliedBandwidthLimit element
+                href: SDN/articles/appliedbandwidthlimit-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: AudioTimestampErrorMicMs element
+                href: SDN/articles/audiotimestamperrormicms-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: AudioTimestampErrorSpkMs element
+                href: SDN/articles/audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Average element
+                href: SDN/articles/average-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Bandwidth element (CodecType complexType)
+                href: SDN/articles/bandwidth-element-codectype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Bandwidth element (StartPropertiesType complexType)
+                href: SDN/articles/bandwidth-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: BitRateAvg element
+                href: SDN/articles/bitrateavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: BitRateMax element
+                href: SDN/articles/bitratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: BSSID element
+                href: SDN/articles/bssid-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: BurstDensity element
+                href: SDN/articles/burstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: BurstDuration element
+                href: SDN/articles/burstduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: BurstGapDensity element
+                href: SDN/articles/burstgapdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: BurstGapDuration element
+                href: SDN/articles/burstgapduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Bye element
+                href: SDN/articles/bye-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Callee element
+                href: SDN/articles/callee-element-invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Caller element
+                href: SDN/articles/caller-element-invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: CallId element
+                href: SDN/articles/callid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: CaptureDevice element
+                href: SDN/articles/capturedevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: CaptureDeviceDriver element
+                href: SDN/articles/capturedevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Codec element (StartPropertiesType complexType)
+                href: SDN/articles/codec-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Codec element (QualityPropertiesType complexType)
+                href: SDN/articles/codec-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ConferenceId element
+                href: SDN/articles/conferenceid-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: ConferenceURI element
+                href: SDN/articles/conferenceuri-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: Connection element
+                href: SDN/articles/connection-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: ConnectionInfo element
+                href: SDN/articles/connectioninfo-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Connectivity element
+                href: SDN/articles/connectivity-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: Contact element (QualityEndPointType complexType)
+                href: SDN/articles/contact-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Contact element (EndPointType complexType)
+                href: SDN/articles/contact-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ConversationalMOS element
+                href: SDN/articles/conversationalmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: ConversationId element
+                href: SDN/articles/conversationid-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: CorrelationId element
+                href: SDN/articles/correlationid-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: CPUInsufficientEventRatio element
+                href: SDN/articles/cpuinsufficienteventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: CPUName element
+                href: SDN/articles/cpuname-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: CPUNumberOfCores element
+                href: SDN/articles/cpunumberofcores-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: CPUProcessorSpeed element
+                href: SDN/articles/cpuprocessorspeed-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: CSEQ element
+                href: SDN/articles/cseq-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: DegradationAvg element
+                href: SDN/articles/degradationavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DegradationJitterAvg element
+                href: SDN/articles/degradationjitteravg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DegradationMax element
+                href: SDN/articles/degradationmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DegradationPacketLossAvg element
+                href: SDN/articles/degradationpacketlossavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceCaptureNotFunctioningEventRatio element
+                href: SDN/articles/devicecapturenotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceClippingEventRatio element
+                href: SDN/articles/deviceclippingeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceEchoEventRatio element
+                href: SDN/articles/deviceechoeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceHowlingEventCount element
+                href: SDN/articles/devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceNearEndToEchoRatioEventRatio element
+                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DeviceRenderNotFunctioningEventRatio element
+                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: DSCPInbound element
+                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: DSCPOutbound element
+                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: DynamicCapabilityPercent element
+                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: EchoEventCauses element
+                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: EchoPercentMicIn element
+                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: EchoPercentSend element
+                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: EchoReturn element
+                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Ended element
+                href: SDN/articles/ended-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndPoint element (ByeType complexType)
+                href: SDN/articles/endpoint-element-byetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndPoint element (ErrorType complexType)
+                href: SDN/articles/endpoint-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndPoint element (EndedType complexType)
+                href: SDN/articles/endpoint-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndTime element
+                href: SDN/articles/endtime-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EPId element (QualityEndPointType complexType)
+                href: SDN/articles/epid-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EPId element (EndPointType complexType)
+                href: SDN/articles/epid-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EPType element (QualityEndPointType complexType)
+                href: SDN/articles/eptype-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EPType element (EndPointType complexType)
+                href: SDN/articles/eptype-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Error element
+                href: SDN/articles/error-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: FrameRate element
+                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: From element (StartOrUpdateType complexType)
+                href: SDN/articles/from-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: From element (QualityType complexType)
+                href: SDN/articles/from-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: From element (ErrorType complexType)
+                href: SDN/articles/from-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: From element (EndedType complexType)
+                href: SDN/articles/from-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: HDQualityRatio element
+                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: HealerPacketDropRatio element
+                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Hop element
+                href: SDN/articles/hop-element-routetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Id element (QualityEndPointType complexType)
+                href: SDN/articles/id-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Id element (EndPointType complexType)
+                href: SDN/articles/id-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: IncallEnabled element
+                href: SDN/articles/incallenabled-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: InCallQuality element
+                href: SDN/articles/incallquality-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Inside element
+                href: SDN/articles/inside-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Invite element
+                href: SDN/articles/invite-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: IP element (QualityEndPointType complexType)
+                href: SDN/articles/ip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: IP element (EndPointType complexType)
+                href: SDN/articles/ip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: JitterInterArrival element
+                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: JitterInterArrivalMax element
+                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: LinkSpeed element
+                href: SDN/articles/linkspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: LocalFrameLossPercentageAvg element
+                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: LowFrameRateCallPercent element
+                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: LowResolutionCallPercent element
+                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: LyncDiagnostics element
+                href: SDN/articles/lyncdiagnostics-element-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MACAddr element
+                href: SDN/articles/macaddr-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MaxBandwidth element
+                href: SDN/articles/maxbandwidth-element-codectype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Maximum element
+                href: SDN/articles/maximum-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MediaBypass element
+                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: MediationServerLegPosition element
+                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
+              - name: MicGlitchRate element
+                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnostics element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnostics-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MSDiagnostics element (EndedProperties complexType)
+                href: SDN/articles/msdiagnostics-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MSDiagnostics element (MessageProperties complexType)
+                href: SDN/articles/msdiagnostics-element-messageproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsClient element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-errorproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsClient element (EndedProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-endedproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsClient element (MessageProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-messageproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsPublic element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-errorproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsPublic element (EndedProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-endedproperties-complextype-skype-sdn-2-2-c.md
+              - name: MSDiagnosticsPublic element (MessageProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-messageproperties-complextype-skype-sdn-2-2-c.md
+              - name: NetworkDelayEventRatio element
+                href: SDN/articles/networkdelayeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: OS element
+                href: SDN/articles/os-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: OverallAvgNetworkMOS element
+                href: SDN/articles/overallavgnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: OverallMinNetworkMOS element
+                href: SDN/articles/overallminnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: PacketLossRate element
+                href: SDN/articles/packetlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: PacketLossRateMax element
+                href: SDN/articles/packetlossratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: PacketUtilization element
+                href: SDN/articles/packetutilization-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Port element (QualityEndPointType complexType)
+                href: SDN/articles/port-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Port element (EndPointType complexType)
+                href: SDN/articles/port-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Properties element (StartOrUpdateType complexType)
+                href: SDN/articles/properties-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Properties element (QualityType complexType)
+                href: SDN/articles/properties-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Properties element (ErrorType complexType)
+                href: SDN/articles/properties-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Properties element (EndedType complexType)
+                href: SDN/articles/properties-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Properties element (MessageType complexType)
+                href: SDN/articles/properties-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Protocol element (StartPropertiesType complexType)
+                href: SDN/articles/protocol-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Protocol element (QualityPropertiesType complexType)
+                href: SDN/articles/protocol-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: QualityUpdate element
+                href: SDN/articles/qualityupdate-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RatioConcealedSamplesAvg element
+                href: SDN/articles/ratioconcealedsamplesavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RawSDP element
+                href: SDN/articles/rawsdp-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RDPTileProcessingLatencyAverage element
+                href: SDN/articles/rdptileprocessinglatencyaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RDPTileProcessingLatencyBurstDensity element
+                href: SDN/articles/rdptileprocessinglatencyburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RecvFrameRateAverage element
+                href: SDN/articles/recvframerateaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RecvListenMOS element
+                href: SDN/articles/recvlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RecvListenMOSMin element
+                href: SDN/articles/recvlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RecvNoiseLevel element
+                href: SDN/articles/recvnoiselevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RecvSignalLevel element
+                href: SDN/articles/recvsignallevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: ReflexiveIP element (QualityEndPointType complexType)
+                href: SDN/articles/reflexiveip-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: ReflexiveIP element (EndPointType complexType)
+                href: SDN/articles/reflexiveip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ReflexivePort element (QualityEndPointType complexType)
+                href: SDN/articles/reflexiveport-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: ReflexivePort element (EndPointType complexType)
+                href: SDN/articles/reflexiveport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RelativeOneWayAverage element
+                href: SDN/articles/relativeonewayaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RelativeOneWayBurstDensity element
+                href: SDN/articles/relativeonewayburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Relay element (QualityEndPointType complexType)
+                href: SDN/articles/relay-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Relay element (EndPointType complexType)
+                href: SDN/articles/relay-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RelayPort element (QualityEndPointType complexType)
+                href: SDN/articles/relayport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RelayPort element (EndPointType complexType)
+                href: SDN/articles/relayport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RenderDevice element
+                href: SDN/articles/renderdevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RenderDeviceDriver element
+                href: SDN/articles/renderdevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: ResponseCode element (ErrorProperties complexType)
+                href: SDN/articles/responsecode-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ResponseCode element (MessageProperties complexType)
+                href: SDN/articles/responsecode-element-messageproperties-complextype-skype-sdn-2-2-c.md
+              - name: ResponsePhrase element
+                href: SDN/articles/responsephrase-element-errorproperties-complextype-skype-sdn-2-2-c.md
+              - name: RoundTrip element
+                href: SDN/articles/roundtrip-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: RoundTripMax element
+                href: SDN/articles/roundtripmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Route element (QualityType complexType)
+                href: SDN/articles/route-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Route element (MessageType complexType)
+                href: SDN/articles/route-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: SendListenMOS element
+                href: SDN/articles/sendlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: SendListenMOSMin element
+                href: SDN/articles/sendlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: SourcePool element
+                href: SDN/articles/sourcepool-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: SpeakerGlitchRate element
+                href: SDN/articles/speakerglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: SpoiledTilePercentAverage element
+                href: SDN/articles/spoiledtilepercentaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: SpoiledTilePercentTotal element
+                href: SDN/articles/spoiledtilepercenttotal-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Start element
+                href: SDN/articles/start-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: StartTime element
+                href: SDN/articles/starttime-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: StreamQuality element
+                href: SDN/articles/streamquality-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: TimeStamp element
+                href: SDN/articles/timestamp-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: To element (StartOrUpdateType complexType)
+                href: SDN/articles/to-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: To element (QualityType complexType)
+                href: SDN/articles/to-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: To element (ErrorType complexType)
+                href: SDN/articles/to-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: To element (EndedType complexType)
+                href: SDN/articles/to-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: Update element
+                href: SDN/articles/update-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: URI element (QualityEndPointType complexType)
+                href: SDN/articles/uri-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: URI element (EndPointType complexType)
+                href: SDN/articles/uri-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: UserAgent element (QualityEndPointType complexType)
+                href: SDN/articles/useragent-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: UserAgent element (EndPointType complexType)
+                href: SDN/articles/useragent-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: VGAQualityRatio element
+                href: SDN/articles/vgaqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: VideoFrameLossRate element
+                href: SDN/articles/videoframelossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: VideoLocalFrameLossPercentageAvg element
+                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: VideoPacketLossRate element
+                href: SDN/articles/videopacketlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
+              - name: Virtualization element
+                href: SDN/articles/virtualization-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: VPN element
+                href: SDN/articles/vpn-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: WifiDriverDeviceDesc element
+                href: SDN/articles/wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+              - name: WifiDriverVersion element
+                href: SDN/articles/wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
+            - name: Types (Skype for Business SDN Interface 2.2, Schema C)
+              href: SDN/articles/types-skype-for-business-sdn-interface-2-2-schema-c.md
+              items:
+              - name: BandwidthType complexType
+                href: SDN/articles/bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ByeType complexType
+                href: SDN/articles/byetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: CodecType complexType
+                href: SDN/articles/codectype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ConnectionInfoType complexType
+                href: SDN/articles/connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndedProperties complexType
+                href: SDN/articles/endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndedType complexType
+                href: SDN/articles/endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: EndPointType complexType
+                href: SDN/articles/endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ErrorProperties complexType
+                href: SDN/articles/errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ErrorType complexType
+                href: SDN/articles/errortype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: InviteType complexType
+                href: SDN/articles/invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MessageProperties complexType
+                href: SDN/articles/messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: MessageType complexType
+                href: SDN/articles/messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: QualityEndPointType complexType
+                href: SDN/articles/qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: QualityPropertiesType complexType
+                href: SDN/articles/qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: QualityType complexType
+                href: SDN/articles/qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: ResponseCodeType complexType
+                href: SDN/articles/responsecodetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: RouteType complexType
+                href: SDN/articles/routetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: StartOrUpdateType complexType
+                href: SDN/articles/startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+              - name: StartPropertiesType complexType
+                href: SDN/articles/startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+          - name: Skype for Business SDN Interface 2.2, Schema D
+            href: SDN/articles/skype-for-business-sdn-interface-2-2-schema-d.md
+            items:
+            - name: Schema map (Skype for Business SDN Interface 2.2, Schema D)
+              href: SDN/articles/schema-map-skype-for-business-sdn-interface-2-2-schema-d.md
+            - name: Elements (Skype for Business SDN Interface 2.2, Schema D)
+              href: SDN/articles/elements-skype-for-business-sdn-interface-2-2-schema-d.md
+              items:
+              - name: AppliedBandwidthLimit element
+                href: SDN/articles/appliedbandwidthlimit-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: AudioTimestampErrorMicMs element
+                href: SDN/articles/audiotimestamperrormicms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: AudioTimestampErrorSpkMs element
+                href: SDN/articles/audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Average element
+                href: SDN/articles/average-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Bandwidth element (CodecType complexType)
+                href: SDN/articles/bandwidth-element-codectype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Bandwidth element (StartPropertiesType complexType)
+                href: SDN/articles/bandwidth-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: BitRateAvg element
+                href: SDN/articles/bitrateavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: BitRateMax element
+                href: SDN/articles/bitratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: BSSID element
+                href: SDN/articles/bssid-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: BurstDensity element
+                href: SDN/articles/burstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: BurstDuration element
+                href: SDN/articles/burstduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: BurstGapDensity element
+                href: SDN/articles/burstgapdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: BurstGapDuration element
+                href: SDN/articles/burstgapduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Bye element
+                href: SDN/articles/bye-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Callee element
+                href: SDN/articles/callee-element-invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Caller element
+                href: SDN/articles/caller-element-invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: CallId element
+                href: SDN/articles/callid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: CaptureDevice element
+                href: SDN/articles/capturedevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: CaptureDeviceDriver element
+                href: SDN/articles/capturedevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Codec element (StartPropertiesType complexType)
+                href: SDN/articles/codec-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Codec element (QualityPropertiesType complexType)
+                href: SDN/articles/codec-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConferenceId element
+                href: SDN/articles/conferenceid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: ConferenceURI element
+                href: SDN/articles/conferenceuri-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: Connection element
+                href: SDN/articles/connection-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: ConnectionInfo element
+                href: SDN/articles/connectioninfo-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Connectivity element
+                href: SDN/articles/connectivity-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: Contact element (QualityEndPointType complexType)
+                href: SDN/articles/contact-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Contact element (EndPointType complexType)
+                href: SDN/articles/contact-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Contact element (ByeEndPointType complexType)
+                href: SDN/articles/contact-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Contact element (InviteEndPointType complexType)
+                href: SDN/articles/contact-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Contact element (ErrorEndPointType complexType)
+                href: SDN/articles/contact-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConversationalMOS element
+                href: SDN/articles/conversationalmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: ConversationId element
+                href: SDN/articles/conversationid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: CorrelationId element
+                href: SDN/articles/correlationid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: CPUInsufficientEventRatio element
+                href: SDN/articles/cpuinsufficienteventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: CPUName element
+                href: SDN/articles/cpuname-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: CPUNumberOfCores element
+                href: SDN/articles/cpunumberofcores-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: CPUProcessorSpeed element
+                href: SDN/articles/cpuprocessorspeed-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: CSEQ element
+                href: SDN/articles/cseq-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: DegradationAvg element
+                href: SDN/articles/degradationavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DegradationJitterAvg element
+                href: SDN/articles/degradationjitteravg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DegradationMax element
+                href: SDN/articles/degradationmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DegradationPacketLossAvg element
+                href: SDN/articles/degradationpacketlossavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceCaptureNotFunctioningEventRatio element
+                href: SDN/articles/devicecapturenotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceClippingEventRatio element
+                href: SDN/articles/deviceclippingeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceEchoEventRatio element
+                href: SDN/articles/deviceechoeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceHowlingEventCount element
+                href: SDN/articles/devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceNearEndToEchoRatioEventRatio element
+                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DeviceRenderNotFunctioningEventRatio element
+                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: DSCPInbound element
+                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: DSCPOutbound element
+                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: DynamicCapabilityPercent element
+                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: EchoEventCauses element
+                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: EchoPercentMicIn element
+                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: EchoPercentSend element
+                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: EchoReturn element
+                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Ended element
+                href: SDN/articles/ended-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndPoint element (ByeType complexType)
+                href: SDN/articles/endpoint-element-byetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndPoint element (ErrorType complexType)
+                href: SDN/articles/endpoint-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndPoint element (EndedType complexType)
+                href: SDN/articles/endpoint-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndTime element
+                href: SDN/articles/endtime-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPId element (QualityEndPointType complexType)
+                href: SDN/articles/epid-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPId element (EndPointType complexType)
+                href: SDN/articles/epid-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPId element (ByeEndPointType complexType)
+                href: SDN/articles/epid-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPId element (InviteEndPointType complexType)
+                href: SDN/articles/epid-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPId element (ErrorEndPointType complexType)
+                href: SDN/articles/epid-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPType element (QualityEndPointType complexType)
+                href: SDN/articles/eptype-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPType element (EndPointType complexType)
+                href: SDN/articles/eptype-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPType element (ByeEndPointType complexType)
+                href: SDN/articles/eptype-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPType element (InviteEndPointType complexType)
+                href: SDN/articles/eptype-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EPType element (ErrorEndPointType complexType)
+                href: SDN/articles/eptype-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Error element
+                href: SDN/articles/error-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: FrameRate element
+                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: From element (StartOrUpdateType complexType)
+                href: SDN/articles/from-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: From element (QualityType complexType)
+                href: SDN/articles/from-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: From element (ErrorType complexType)
+                href: SDN/articles/from-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: From element (EndedType complexType)
+                href: SDN/articles/from-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: FrontEnds element
+                href: SDN/articles/frontends-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HDQualityRatio element
+                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: HealerPacketDropRatio element
+                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Hop element
+                href: SDN/articles/hop-element-routetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostIP element (QualityEndPointType complexType)
+                href: SDN/articles/hostip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostIP element (EndPointType complexType)
+                href: SDN/articles/hostip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostIP element (ByeEndPointType complexType)
+                href: SDN/articles/hostip-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostIP element (InviteEndPointType complexType)
+                href: SDN/articles/hostip-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostIP element (ErrorEndPointType complexType)
+                href: SDN/articles/hostip-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostPort element (QualityEndPointType complexType)
+                href: SDN/articles/hostport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostPort element (EndPointType complexType)
+                href: SDN/articles/hostport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostPort element (ByeEndPointType complexType)
+                href: SDN/articles/hostport-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostPort element (InviteEndPointType complexType)
+                href: SDN/articles/hostport-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: HostPort element (ErrorEndPointType complexType)
+                href: SDN/articles/hostport-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Id element (QualityEndPointType complexType)
+                href: SDN/articles/id-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Id element (EndPointType complexType)
+                href: SDN/articles/id-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Id element (ByeEndPointType complexType)
+                href: SDN/articles/id-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Id element (InviteEndPointType complexType)
+                href: SDN/articles/id-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Id element (ErrorEndPointType complexType)
+                href: SDN/articles/id-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IncallEnabled element (EndPointType complexType)
+                href: SDN/articles/incallenabled-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IncallEnabled element (ByeEndPointType complexType)
+                href: SDN/articles/incallenabled-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IncallEnabled element (InviteEndPointType complexType)
+                href: SDN/articles/incallenabled-element-inviteendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: IncallEnabled element (ErrorEndPointType complexType)
+                href: SDN/articles/incallenabled-element-errorendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: InCallQuality element
+                href: SDN/articles/incallquality-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Inside element
+                href: SDN/articles/inside-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Invite element
+                href: SDN/articles/invite-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IP element (QualityEndPointType complexType)
+                href: SDN/articles/ip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IP element (EndPointType complexType)
+                href: SDN/articles/ip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IP element (ByeEndPointType complexType)
+                href: SDN/articles/ip-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IP element (InviteEndPointType complexType)
+                href: SDN/articles/ip-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: IP element (ErrorEndPointType complexType)
+                href: SDN/articles/ip-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: JitterInterArrival element
+                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: JitterInterArrivalMax element
+                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: LinkSpeed element
+                href: SDN/articles/linkspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: LocalFrameLossPercentageAvg element
+                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: LowFrameRateCallPercent element
+                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: LowResolutionCallPercent element
+                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: LyncDiagnostics element
+                href: SDN/articles/lyncdiagnostics-element-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MACAddr element
+                href: SDN/articles/macaddr-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MaxBandwidth element
+                href: SDN/articles/maxbandwidth-element-codectype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Maximum element
+                href: SDN/articles/maximum-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MediaBypass element
+                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: MediationServerLegPosition element
+                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
+              - name: MicGlitchRate element
+                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnostics element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnostics-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MSDiagnostics element (EndedProperties complexType)
+                href: SDN/articles/msdiagnostics-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MSDiagnostics element (MessageProperties complexType)
+                href: SDN/articles/msdiagnostics-element-messageproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsClient element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-errorproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsClient element (EndedProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-endedproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsClient element (MessageProperties complexType)
+                href: SDN/articles/msdiagnosticsclient-element-messageproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsPublic element (ErrorProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-errorproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsPublic element (EndedProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-endedproperties-complextype-skype-sdn-2-2-d.md
+              - name: MSDiagnosticsPublic element (MessageProperties complexType)
+                href: SDN/articles/msdiagnosticspublic-element-messageproperties-complextype-skype-sdn-2-2-d.md
+              - name: NetworkDelayEventRatio element
+                href: SDN/articles/networkdelayeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: OS element
+                href: SDN/articles/os-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: OverallAvgNetworkMOS element
+                href: SDN/articles/overallavgnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: OverallMinNetworkMOS element
+                href: SDN/articles/overallminnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: PacketLossRate element
+                href: SDN/articles/packetlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: PacketLossRateMax element
+                href: SDN/articles/packetlossratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: PacketUtilization element
+                href: SDN/articles/packetutilization-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: PAI element (QualityEndPointType complexType)
+                href: SDN/articles/pai-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: PAI element (EndPointType complexType)
+                href: SDN/articles/pai-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: PAI element (ByeEndPointType complexType)
+                href: SDN/articles/pai-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: PAI element (InviteEndPointType complexType)
+                href: SDN/articles/pai-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: PAI element (ErrorEndPointType complexType)
+                href: SDN/articles/pai-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Pools element
+                href: SDN/articles/pools-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Port element (QualityEndPointType complexType)
+                href: SDN/articles/port-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Port element (EndPointType complexType)
+                href: SDN/articles/port-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Port element (ByeEndPointType complexType)
+                href: SDN/articles/port-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Port element (InviteEndPointType complexType)
+                href: SDN/articles/port-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Port element (ErrorEndPointType complexType)
+                href: SDN/articles/port-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Properties element (StartOrUpdateType complexType)
+                href: SDN/articles/properties-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Properties element (QualityType complexType)
+                href: SDN/articles/properties-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Properties element (ErrorType complexType)
+                href: SDN/articles/properties-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Properties element (EndedType complexType)
+                href: SDN/articles/properties-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Properties element (MessageType complexType)
+                href: SDN/articles/properties-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Protocol element (StartPropertiesType complexType)
+                href: SDN/articles/protocol-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Protocol element (QualityPropertiesType complexType)
+                href: SDN/articles/protocol-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: QualityUpdate element
+                href: SDN/articles/qualityupdate-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RatioConcealedSamplesAvg element
+                href: SDN/articles/ratioconcealedsamplesavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RawSDP element
+                href: SDN/articles/rawsdp-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RDPTileProcessingLatencyAverage element
+                href: SDN/articles/rdptileprocessinglatencyaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RDPTileProcessingLatencyBurstDensity element
+                href: SDN/articles/rdptileprocessinglatencyburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RecvFrameRateAverage element
+                href: SDN/articles/recvframerateaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RecvListenMOS element
+                href: SDN/articles/recvlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RecvListenMOSMin element
+                href: SDN/articles/recvlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RecvNoiseLevel element
+                href: SDN/articles/recvnoiselevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RecvSignalLevel element
+                href: SDN/articles/recvsignallevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: ReferredBy element
+                href: SDN/articles/referredby-element-startpropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: ReflexiveIP element (QualityEndPointType complexType)
+                href: SDN/articles/reflexiveip-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: ReflexiveIP element (EndPointType complexType)
+                href: SDN/articles/reflexiveip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ReflexiveIP element (ByeEndPointType complexType)
+                href: SDN/articles/reflexiveip-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ReflexiveIP element (ErrorEndPointType complexType)
+                href: SDN/articles/reflexiveip-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ReflexivePort element (QualityEndPointType complexType)
+                href: SDN/articles/reflexiveport-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: ReflexivePort element (EndPointType complexType)
+                href: SDN/articles/reflexiveport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ReflexivePort element (ByeEndPointType complexType)
+                href: SDN/articles/reflexiveport-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ReflexivePort element (ErrorEndPointType complexType)
+                href: SDN/articles/reflexiveport-element-errorendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: RelativeOneWayAverage element
+                href: SDN/articles/relativeonewayaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RelativeOneWayBurstDensity element
+                href: SDN/articles/relativeonewayburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Relay element (QualityEndPointType complexType)
+                href: SDN/articles/relay-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Relay element (EndPointType complexType)
+                href: SDN/articles/relay-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Relay element (ByeEndPointType complexType)
+                href: SDN/articles/relay-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Relay element (ErrorEndPointType complexType)
+                href: SDN/articles/relay-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RelayPort element (QualityEndPointType complexType)
+                href: SDN/articles/relayport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RelayPort element (EndPointType complexType)
+                href: SDN/articles/relayport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RelayPort element (ByeEndPointType complexType)
+                href: SDN/articles/relayport-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RelayPort element (ErrorEndPointType complexType)
+                href: SDN/articles/relayport-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RenderDevice element
+                href: SDN/articles/renderdevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RenderDeviceDriver element
+                href: SDN/articles/renderdevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Replaces element
+                href: SDN/articles/replaces-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ResponseCode element (ErrorProperties complexType)
+                href: SDN/articles/responsecode-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ResponseCode element (MessageProperties complexType)
+                href: SDN/articles/responsecode-element-messageproperties-complextype-skype-sdn-2-2-d.md
+              - name: ResponsePhrase element
+                href: SDN/articles/responsephrase-element-errorproperties-complextype-skype-sdn-2-2-d.md
+              - name: RoundTrip element
+                href: SDN/articles/roundtrip-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: RoundTripMax element
+                href: SDN/articles/roundtripmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Route element (QualityType complexType)
+                href: SDN/articles/route-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Route element (MessageType complexType)
+                href: SDN/articles/route-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: SendListenMOS element
+                href: SDN/articles/sendlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: SendListenMOSMin element
+                href: SDN/articles/sendlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: SourcePool element
+                href: SDN/articles/sourcepool-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: SpeakerGlitchRate element
+                href: SDN/articles/speakerglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: SpoiledTilePercentAverage element
+                href: SDN/articles/spoiledtilepercentaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: SpoiledTilePercentTotal element
+                href: SDN/articles/spoiledtilepercenttotal-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Start element
+                href: SDN/articles/start-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: StartTime element
+                href: SDN/articles/starttime-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: StreamQuality element
+                href: SDN/articles/streamquality-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: TenantId element (EndPointType complexType)
+                href: SDN/articles/tenantid-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: TenantId element (ByeEndPointType complexType)
+                href: SDN/articles/tenantid-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: TenantId element (InviteEndPointType complexType)
+                href: SDN/articles/tenantid-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: TenantId element (ErrorEndPointType complexType)
+                href: SDN/articles/tenantid-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: TimeStamp element
+                href: SDN/articles/timestamp-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: To element (StartOrUpdateType complexType)
+                href: SDN/articles/to-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: To element (QualityType complexType)
+                href: SDN/articles/to-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: To element (ErrorType complexType)
+                href: SDN/articles/to-element-errortype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: To element (EndedType complexType)
+                href: SDN/articles/to-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Trunk element (QualityEndPointType complexType)
+                href: SDN/articles/trunk-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Trunk element (EndPointType complexType)
+                href: SDN/articles/trunk-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Trunk element (ByeEndPointType complexType)
+                href: SDN/articles/trunk-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Trunk element (InviteEndPointType complexType)
+                href: SDN/articles/trunk-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Trunk element (ErrorEndPointType complexType)
+                href: SDN/articles/trunk-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Update element
+                href: SDN/articles/update-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: URI element (QualityEndPointType complexType)
+                href: SDN/articles/uri-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: URI element (EndPointType complexType)
+                href: SDN/articles/uri-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: URI element (ByeEndPointType complexType)
+                href: SDN/articles/uri-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: URI element (InviteEndPointType complexType)
+                href: SDN/articles/uri-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: URI element (ErrorEndPointType complexType)
+                href: SDN/articles/uri-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgent element (QualityEndPointType complexType)
+                href: SDN/articles/useragent-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgent element (EndPointType complexType)
+                href: SDN/articles/useragent-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgent element (ByeEndPointType complexType)
+                href: SDN/articles/useragent-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgent element (InviteEndPointType complexType)
+                href: SDN/articles/useragent-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgent element (ErrorEndPointType complexType)
+                href: SDN/articles/useragent-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: VGAQualityRatio element
+                href: SDN/articles/vgaqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Via element
+                href: SDN/articles/via-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: VideoFrameLossRate element
+                href: SDN/articles/videoframelossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: VideoLocalFrameLossPercentageAvg element
+                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: VideoPacketLossRate element
+                href: SDN/articles/videopacketlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
+              - name: Virtualization element
+                href: SDN/articles/virtualization-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: VPN element
+                href: SDN/articles/vpn-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: WifiDriverDeviceDesc element
+                href: SDN/articles/wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: WifiDriverVersion element
+                href: SDN/articles/wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
+              - name: Wireless element (EndPointType complexType)
+                href: SDN/articles/wireless-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Wireless element (ByeEndPointType complexType)
+                href: SDN/articles/wireless-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Wireless element (InviteEndPointType complexType)
+                href: SDN/articles/wireless-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: Wireless element (ErrorEndPointType complexType)
+                href: SDN/articles/wireless-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+            - name: Types (Skype for Business SDN Interface 2.2, Schema D)
+              href: SDN/articles/types-skype-for-business-sdn-interface-2-2-schema-d.md
+              items:
+              - name: BandwidthDataType simpleType
+                href: SDN/articles/bandwidthdatatype-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: BSSIDPattern simpleType
+                href: SDN/articles/bssidpattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConnectionModalities simpleType
+                href: SDN/articles/connectionmodalities-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConnectionPlatforms simpleType
+                href: SDN/articles/connectionplatforms-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConnectivityModalities simpleType
+                href: SDN/articles/connectivitymodalities-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: DoubleBetween0And100 simpleType
+                href: SDN/articles/doublebetween0and100-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndpointIdPattern simpleType
+                href: SDN/articles/endpointidpattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ipAddressPattern simpleType
+                href: SDN/articles/ipaddresspattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: NonNegativeDouble simpleType
+                href: SDN/articles/nonnegativedouble-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: PortPattern simpleType
+                href: SDN/articles/portpattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ProtocolTypes simpleType
+                href: SDN/articles/protocoltypes-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ThisVersion simpleType
+                href: SDN/articles/thisversion-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: BandwidthType complexType
+                href: SDN/articles/bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ByeEndPointType complexType
+                href: SDN/articles/byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ByeType complexType
+                href: SDN/articles/byetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: CodecType complexType
+                href: SDN/articles/codectype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ConnectionInfoType complexType
+                href: SDN/articles/connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndedProperties complexType
+                href: SDN/articles/endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndedType complexType
+                href: SDN/articles/endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: EndPointType complexType
+                href: SDN/articles/endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ErrorEndPointType complexType
+                href: SDN/articles/errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ErrorProperties complexType
+                href: SDN/articles/errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ErrorType complexType
+                href: SDN/articles/errortype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: InviteEndPointType complexType
+                href: SDN/articles/inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: InviteType complexType
+                href: SDN/articles/invitetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MessageProperties complexType
+                href: SDN/articles/messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: MessageType complexType
+                href: SDN/articles/messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: QualityEndPointType complexType
+                href: SDN/articles/qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: QualityPropertiesType complexType
+                href: SDN/articles/qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: QualityType complexType
+                href: SDN/articles/qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: ResponseCodeType complexType
+                href: SDN/articles/responsecodetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: RouteType complexType
+                href: SDN/articles/routetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: StartOrUpdateType complexType
+                href: SDN/articles/startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: StartPropertiesType complexType
+                href: SDN/articles/startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: StreamQualityType complexType
+                href: SDN/articles/streamqualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+              - name: UserAgentType complexType
+                href: SDN/articles/useragenttype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+  - name: Lync
+    href: https://msdn.microsoft.com/en-us/library/office/dn820099.aspx
+    items:
+    - name: Lync 2013
+      href: https://msdn.microsoft.com/en-us/library/office/jj162980.aspx
+    - name: Lync 2010
+      href: https://msdn.microsoft.com/en-us/library/office/hh467893.aspx

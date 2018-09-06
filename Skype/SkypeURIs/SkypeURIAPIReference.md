@@ -56,6 +56,7 @@ If your call specifies multiple participants, the individual identities—Skype 
 
  `participant1;participant2;participant3`
 
+<a name="call"></a>
 
 ### Audio call—implicit
 
@@ -128,6 +129,7 @@ to simply omit the argument. See [Audio call—implicit](#call) and [Video call]
 * The optional topic argument applies to conference calls only.
 * Special characters in the optional topic argument value—specifically whitespace—must be escaped.
 * Mobile Skype clients (iOS and Android) do not support initiating/hosting conference calls.
+<a name="video"></a>
 
 ### Video call
 

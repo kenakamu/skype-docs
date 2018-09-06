@@ -10,7 +10,7 @@ Skype provides two ways for using Skype URIs in your web pages:
 
 
 * [Skype Buttons](#buttons)
-* [Skype.ui JavaScript function](SkypeURItutorial_web pages.md)
+* [Skype.ui JavaScript function](SkypeURItutorial_Webpages.md)
 
 Each of these approaches additionally determines whether a Skype client is installed, and takes the appropriate action.
 
@@ -23,6 +23,7 @@ For example:
 
 However, your web page must determine whether a Skype client is installed, and take the appropriate action if it is not.
 
+<a name="buttons"></a>
 
 ### Skype Buttons
 
@@ -43,6 +44,7 @@ For example:
 
      `SkypeButton_Call_#echo123_01, SkypeButton_Call_#echo123_02`
 
+<a name="skype.ui"></a>
 
 ### Skype.ui JavaScript function
 
@@ -51,7 +53,7 @@ similar to Skype buttons, but provides additional formatting options and functio
 video, conference calls, and multi chats. **Skype.ui** will attempt to determine if a Skype client is installed, and 
 take appropriate action as required.
 
-The basic design pattern for adding Skype URIs to your web pages involves:
+dThe basic design pattern for adding Skype URIs to your web pages involves:
 
 
 * Importing the [skype-uri.js](http://www.skypeassets.com/i/scom/js/skype-uri.js) file from **http://www.skypeassets.com/i/scom/js/** into your web page.
@@ -61,7 +63,7 @@ The basic design pattern for adding Skype URIs to your web pages involves:
 For example, the following figure shows a code fragment that adds a Skype URI that initiates an audio call to the Skype 
 Echo/Sound Test Service:
 
-
+m
 **Figure 1. JavaScript code example**
 
 ![Code adding Skype URI to initiate audio call](images/SkypeUriJavaScriptCallouts.png)
@@ -71,7 +73,7 @@ Echo/Sound Test Service:
  Version 2.0, which you can view at [http://www.apache.org/licenses/](http://www.apache.org/licenses/).
 
 
-#### Image assets
+.#### Image assets
 
 Embedded Skype URIs use buttons for shifting focus to the Skype client, starting a call, and starting or rejoining a 
 chat. The button's associated link includes an **img** tag who's **src** attribute specifies the appropriate image asset.
@@ -128,7 +130,7 @@ associated with the various types of Skype URIs, see the Skype.ui quick referenc
 |:-----|:-----|
 |name|The name of the Skype URI. Currently recognized values are:<br/>* **call** - Place an audio or video call.<br/>* **chat** - Initiate/restart a chat.<br/>* **dropdown** - Dynamically choose whether to place a call or initiate/restart a chat. If omitted, "audio call" is implied if any participants are specified, and "switch focus to the Skype client" is implied if no participants are specified.|
 |element|The **id** attribute value of the element that will contain the generated Skype URI link (typically a **div** tag).Always required.|
-|participants|An array of one or more Skype Names (or phone numbers) that are the target or targets of the generated Skype URI.Required if name is specified as  **call** or **chat**. There is no predefined limit on the number of participants, but keep in mind that group video calls are currently limited to a maximum of 10 participants. The participants are also optionally formatted as a comma-separated list, immediately following the generated link. See [Skype URI API reference](SkypeURIAPIReference) for platform-specific caveats related to multiple participants; for example, mobile Skype clients (iOS and Android) do not support initiating/hosting conference calls.|
+|participants|An array of one or more Skype Names (or phone numbers) that are the target or targets of the generated Skype URI.Required if name is specified as  **call** or **chat**. There is no predefined limit on the number of participants, but keep in mind that group video calls are currently limited to a maximum of 10 participants. The participants are also optionally formatted as a comma-separated list, immediately following the generated link. See [Skype URI API reference](SkypeURIAPIReference.md) for platform-specific caveats related to multiple participants; for example, mobile Skype clients (iOS and Android) do not support initiating/hosting conference calls.|
 |listParticipants|Whether to list the participant Skype Names and/or phone numbers immediately following the generated link. Values are: <br/>* **true** - List the participants.<br/>* **false** (or any value other than **true**) - Do not list the participants. <br/>The default is  **false**. Ignored if there are no participants to list.|
 |video|Whether this is a video call. Values are:<br/>* **true** - Video call. <br/>* **false** (or any value other than `true`) - Audio call.<br/>The default is **false**. Ignored if this Skype URI is not an explicit call; that is, **name** is omitted or specified as other than **call** or **dropdown**.|
 |topic|The optional topic string for a conference call, group video chat, or multi chat. Special characters in the value—specifically spaces, colons, and slashes—are additionally escaped. For example:<br/> **topic: "Quantum Mechanics 401 (Room: 7; 02/17/2012)"** <br/>is automatically escaped to yield:<br/>**Quantum%20Mechanics%20401%20(Room%3A%207;%2002%2F17%2F2012)** <br/>Ignored if there are fewer than two participants, or if this Skype URI is not an explicit call or chat; that is, name is omitted or specified as other than  **call**,  **chat**, or **dropdown**. Like the participants, the topic string is also optionally included as text immediately following the generated link. |
